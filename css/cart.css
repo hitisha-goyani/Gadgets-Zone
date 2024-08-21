@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    width:60%;
+    border-bottom: 1px solid gainsboro;
+    color:#364253;
+    font-family:  'Nunito', sans-serif;
+    font-size: 24px;
+    text-align: end;
+    line-height: 3;
+    color:#364253;
+    
+}
+.icon{
+    width: 40%;
+    font-size: 25px;
+    line-height: 3;
+    text-align: center;
+}
+.ri-shopping-cart-line{
+    color:#364253;
+    font-size:25px;
+   
+}
+.ri-search-line{
+    color:#364253;
+    font-size:25px;
+
+}
+.line {
+    border-right: 1px dotted #364253;
+    margin: 10px;
+  }
+.theme{
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+}
+.container{
+    max-width:1320px;
+    height:700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.carts{
+    border-bottom: 1px solid gainsboro;
+    height:95px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display:flex;
+    /* border:1px solid black; */
+}
+.carts:last-child{
+    border-bottom: none;
+}
+.items{
+    height:55px;
+    display:inline-block;
+    width:20%;
+    margin-top:20px;
+    padding:10px;
+    display:flex;
+    /* border:1px solid red; */
+    /* margin: auto; */
+
+}
+.items:first-child{
+    width: 60%;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    height:90px;
+    display: inline-block;
+    width: 20%;
+    padding:10px;
+    /* border:1px solid green; */
+    display:flex;
+}
+.main:first-child{
+    width:60%;
+}
+.details{
+    width:20%;
+    height:100%;
+    margin-left: 5px;
+    margin-top:9px;
+
+}
+.price{
+    width:100%;
+}
+.txt{
+    color: #FDBD00;
+    padding: 4px;
+    font-size: 15px;
+    line-height: 1.8;
+    text-decoration: none;
+} 
+.qty{
+    border: 1px solid gainsboro;
+    height:30px;
+    width:110px;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.pr{
+    margin-top:15px;
+    margin-left: 25px;
+}
+.ri-delete-bin-5-line{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #FDBD00;
+    font-size: 20px;
+}
+.btn{
+    /* border: 1px solid green; */
+   width:50%;
+}
+.btn-continue{
+    width:188px;
+    height:36px;
+    border: 1px solid  #EB984E ;
+    background-color:white;
+    color: #EB984E;
+}
+.btn-continue:hover{
+    background-color:#eb974e;
+    color:white;
+}
+.btn-checkout{
+    width: 188px;
+    height: 36px;
+    border: none;
+    background-color:#eb974e;
+    color: white;
+    margin-left: 48%;
+ 
+}
+.footer{
+    background-color: #364253;
+}
+.container8{
+    max-width:1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+   
+}
+.b-footer{
+    width: 325px;
+    height: 100%;
+    padding: 20px;
+    /* border: 1px solid red;  */
+}
+.box-pay{
+    /* border: 1px solid white; */
+    width:250px;
+    margin-top: 50px;
+
+}
+.h-pay{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px;
+   
+}
+img{
+    margin-right: 10px;
+}
+.footer-text{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+ 
+}
+.type1{
+    list-style-type: disc;
+    padding: 5px 0;
+}
+.icon{
+    color:#6C798B;
+    font-size: 20px;
+}
+input{
+    background: transparent;
+    border-color: RGBA(255, 255, 255, 0.5);
+    color: #ffffff;
+    width: 100%;
+    margin: 5px;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+.subscibe{
+    background-color: #ffffff;
+    color: #EB984E;
+    border-color: transparent;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+.height{
+    color: #6C798B;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+        
+
+        
