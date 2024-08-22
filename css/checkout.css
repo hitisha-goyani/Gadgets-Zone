@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.logo{
+    margin-left: 40%;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.text{
+   
+    font-family: 'Nunito',sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    color: #364253;
+}
+
+.container-menu{
+    max-width:1320px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+.menu{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 45px;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    /* border: solid #636f7c; */
+}
+.t-color{
+    color: #FDBD00;
+
+}
+.container-track{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.black{
+    font-family: "Roboto Slab", serif;
+
+}
+u{
+    text-decoration-color: orange;
+   text-decoration-thickness: 3px;
+
+}
+.track{
+    font-family: "Roboto Slab", serif;
+    margin-top: 35px;
+    padding: 20px;
+    margin-left: 30%;
+
+}
+.container-info{
+    max-width:1320px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+   .shipping{
+
+    border-right: 1px solid gainsboro;
+    height: 100%;
+    max-width:800px;
+    padding: 10px;
+    margin-bottom: 70px;
+    font-family: "Source Sans Pro";
+    font-size: 17px;
+   }
+   .shipping label{
+    padding-bottom:10px
+}
+.main-box{
+   
+    display: flex;
+    flex-wrap: wrap ;
+    padding-bottom: 20px;
+}
+
+.sub-box{
+    display:inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 380px;
+}
+input{
+    width: 350px;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-mail{
+   
+    margin-top: 15px;
+    
+}
+
+.mail{
+    width: 735px;
+    height: 35px;
+}
