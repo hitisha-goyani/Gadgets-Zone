@@ -83,9 +83,10 @@ u{
     margin-bottom: 70px;
     font-family: "Source Sans Pro";
     font-size: 17px;
+    border:1px solid green;
    }
    .shipping label{
-    padding-bottom:10px
+    padding-bottom:10px;
 }
 .main-box{
    
@@ -115,4 +116,139 @@ input{
 .mail{
     width: 735px;
     height: 35px;
+}
+p{
+    padding: 35px;
+  
+}
+.address{
+    width: 735px;
+    height: 98px;
+}
+
+.box-city{
+    display:inline-block;
+    margin-top: 15px;
+    width: 380px;
+}
+
+.box-cty{
+    display:inline-block;
+   
+}
+
+a{
+    line-height: 2.5;
+}
+
+.box-state{
+    display:inline-block;
+    width: 380px;
+    margin-top: 20px;
+}
+.box-code{
+    display:inline-block;
+}
+
+.input{
+    width: 350px;
+    height: 35px;
+}
+
+
+
+.check{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+.conti{
+        width: 127px;
+        height: 41px;
+       background-color: #eb974e;
+        color:white;
+        border: none;
+        margin-top: 25px;
+        margin-left: 80%;
+       
+}
+
+.conti:hover{
+    background-color: darkorange;
+}
+
+.summary{
+    
+   
+    width:515px;
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.subb-sum{
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 100%;
+    margin-top: 90px;
+    
+}
+
+.b-apply{
+
+      position: sticky;
+      top:90px; 
+      height: fit-content;
+    width: 100%;
+    padding: 20px;
+   
+}
+
+.order{
+ 
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+
+.cc{
+    max-width: 250px;
+    height: 35px;
+    padding: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.app{
+    width: 54px;
+    height: 36px;
+
+    margin-left: 2%;
+    background-color: #eb974e;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.app:hover{
+     background-color: darkorange;
+}
+
+
+
+h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.pr{
+    margin-left: 30%;
+}
+
+.price{
+    margin-left: 49%;
 }
