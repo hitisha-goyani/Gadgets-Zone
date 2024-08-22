@@ -7,10 +7,7 @@
     max-width: 1320px;
     /* border:2px solid red; */
     margin: auto;
-    /* position:fixed; 
-    z-index:999;
-    top:0px;*/
-
+   
 }
 .sub-head{
     /* border: 1px solid green; */
@@ -59,7 +56,7 @@
   }
   .container-menu{
     width:100%;
-  
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     display: flex;
     justify-content: center;
     position: sticky;
@@ -95,7 +92,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     margin: auto;
-    margin-top: 20px;
+   
 
 }
 .slider{
