@@ -83,7 +83,7 @@ u{
     margin-bottom: 70px;
     font-family: "Source Sans Pro";
     font-size: 17px;
-    border:1px solid green;
+    /* border:1px solid green; */
    }
    .shipping label{
     padding-bottom:10px;
@@ -117,7 +117,7 @@ input{
     width: 735px;
     height: 35px;
 }
-p{
+.shipping-add{
     padding: 35px;
   
 }
@@ -134,6 +134,7 @@ p{
 
 .box-cty{
     display:inline-block;
+    margin-top: 20px;
    
 }
 
@@ -148,6 +149,7 @@ a{
 }
 .box-code{
     display:inline-block;
+    margin-top: 20px;
 }
 
 .input{
@@ -158,8 +160,8 @@ a{
 
 
 .check{
-    height: 18px;
-    width: 18px;
+    height: 15px;
+    width: 15px;
     display: inline-block;
 }
 
@@ -188,7 +190,7 @@ a{
    
 }
 
-.subb-sum{
+.sub-sum{
    
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +200,7 @@ a{
     
 }
 
-.b-apply{
+.b-Apply{
 
       position: sticky;
       top:90px; 
@@ -247,8 +249,99 @@ h3{
 
 .pr{
     margin-left: 30%;
+    font-size: 15px;
 }
 
 .price{
     margin-left: 49%;
+   
 }
+.sum{
+    font-size: 17px;
+}
+.total{
+    font-size:15px;
+}
+.pp{
+    font-size: 18px;
+}
+/* footer */
+.footer{
+    background-color: #364253;
+}
+.container8{
+    max-width:1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+   
+}
+.b-footer{
+    width: 325px;
+    height: 100%;
+    padding: 20px;
+    /* border: 1px solid red;  */
+}
+.box-pay{
+    /* border: 1px solid white; */
+    width:250px;
+    margin-top: 50px;
+
+}
+.h-pay{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px;
+   
+}
+img{
+    margin-right: 10px;
+}
+.footer-text{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+ 
+}
+.type1{
+    list-style-type: disc;
+    padding: 5px 0;
+}
+.icon{
+    color:#6C798B;
+    font-size: 20px;
+}
+.footer-email{
+    background: transparent;
+    border-color: RGBA(255, 255, 255, 0.5);
+    color: #ffffff;
+    width: 100%;
+    margin: 5px;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+.subscibe{
+    background-color: #ffffff;
+    color: #EB984E;
+    border-color: transparent;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+.height{
+    color: #6C798B;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+        
+
+        
